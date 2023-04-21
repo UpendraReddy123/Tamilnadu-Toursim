@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:5500/TourismWebsite.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Nadu Tourism</title>
+    <style>
+        .top0 {
+            width: 100%;
+            height: 720px;
+        }
+
+        .img1 {
+            width: 800px;
+            height: 100px;
+        }
+
+        .img0 {
+            height: 100px;
+            width: 100px;
+        }
+
+        .img2 {
+            height: 100px;
+            width: 80px;
+        }
+
+        .img3 {
+            height: 100px;
+            width: 510px;
+        }
+
+        .top1 {
+            height: 630px;
+            width: 100%;
+            background-image: url(tempfrnt.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .ancr0,
+        .ancr1,
+        .ancr2,
+        .ancr3 {
+            margin-left: 240px;
+        }
+
+        .btn0 {
+            background-color: rgb(183, 192, 149);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn0:hover {
+            background-color: palegreen;
+
+        }
+
+
+        .top2 {
+            width: 500px;
+            margin-left: 500px;
+            height: 130px
+        }
+
+        .intro1 {
+            justify-content: center;
+            font-style: italic;
+        }
+
+        .introheading {
+            font-style: italic;
+            margin-left: 100px;
+            font-weight: bolder;
+        }
+
+        .quoteintro1 {
+            text-align: end;
+            margin-left: 220px;
+            font-style: italic;
+        }
+
+        .visitimg {
+            height: 800px;
+            width: 100%;
+            background-color: rgb(42, 188, 152);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <div class="top0">
+            <img src="./Tamil Nadu Tourism_files/govtlogo.png" alt="" class="img0">
+            <img src="./Tamil Nadu Tourism_files/nameimg22.png" alt="" class="img1">
+            <img src="./Tamil Nadu Tourism_files/cldance5.webp" alt="" class="img2">
+            <img src="./Tamil Nadu Tourism_files/temp0.jpg" alt="" class="img3">
+
+            <div class="top1">
+
+                <div class="top11">
+
+                    <a href="http://127.0.0.1:5500/TourismWebsite.html#" class="ancr0">
+                        <button class="btn0">Home</button>
+                    </a>
+                    <a href="http://127.0.0.1:5500/TourismWebsite.html#" class="ancr1">
+                        <button class="btn0">Heritage</button>
+                    </a>
+                    <a href="http://127.0.0.1:5500/TourismWebsite.html#" class="ancr2">
+                        <button class="btn0">Gallery</button>
+                    </a>
+                    <a href="http://127.0.0.1:5500/TourismWebsite.html#" class="ancr3">
+                        <button class="btn0">Hotel Bookings</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div style="background-color:beige">
+
+            <div class="top2">
+                <h2 class="introheading">Welcome to Tamil Nadu!</h2>
+                <p class="intro1">
+                    A potpourri of vibrant cultures, exotic destinations and enduring memories; welcome to one of the
+                    heartlands of human civilization. <br>
+
+                </p><p class="quoteintro1"> Tamil Nadu - where stories never end</p>.
+                <p></p>
+            </div>
+        </div>
+
+        <div>
+
+            <div>
+                <h1 style="text-align:center; color:indianred; font-weight:bolder">PLACES TO VISIT</h1>
+
+                <div class="visitimg">
+
+                    <img src="./Tamil Nadu Tourism_files/ooty.webp" alt="" style="display: inline; height:400px; width:470px; border-radius:20px">
+                    <img src="./Tamil Nadu Tourism_files/advntr2.jpg" alt="" style="display: inline; height:400px; width:550px;border-radius:20px">
+                    <img src="./Tamil Nadu Tourism_files/temp1.webp" alt="" style="display: inline; height:400px; width:475px; border-radius:20px">
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
